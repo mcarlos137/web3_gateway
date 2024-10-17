@@ -1,0 +1,914 @@
+2024-01-30 05:43:02 | error | 	The spender param is not a valid Ethereum address (0x followed by 40 hexidecimal characters). | Error: The spender param is not a valid Ethereum address (0x followed by 40 hexidecimal characters).
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:257:30)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.allowances (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:170:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:90:45
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at allowances (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:47:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:181:46
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	Token not supported:  | Error: Token not supported: 
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:348:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	The address param is not a valid Ethereum private key (64 hexidecimal characters)., The request is missing the key: tokenSymbols | Error: The address param is not a valid Ethereum private key (64 hexidecimal characters)., The request is missing the key: tokenSymbols
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:298:27)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.balances (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:193:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:105:43
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at balances (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:55:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:99:44
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	The address param is not a valid Ethereum private key (64 hexidecimal characters). | Error: The address param is not a valid Ethereum private key (64 hexidecimal characters).
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:160:34
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:158:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:02 | error | 	The address param is not a valid Ethereum private key (64 hexidecimal characters). | Error: The address param is not a valid Ethereum private key (64 hexidecimal characters).
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:219:25)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.nextNonce (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:145:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:62:44
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at nextNonce (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:31:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:147:45
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	The spender param is not a valid Ethereum address (0x followed by 40 hexidecimal characters). | Error: The spender param is not a valid Ethereum address (0x followed by 40 hexidecimal characters).
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:365:27)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.approve (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:236:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:120:44
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at approve (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:63:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:197:43
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	The token param should be a string., If nonce is included it must be a non-negative integer. | Error: The token param should be a string., If nonce is included it must be a non-negative integer.
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:365:27)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.approve (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:236:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:120:44
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at approve (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:63:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:197:43
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | info | 	Cancelled transaction at nonce 23, cancel txHash 0xf6b9e7cec507cb3763a1179ff7e2a88c6008372e3a6f297d9027a0b39b0fff77. | undefined
+2024-01-30 05:43:02 | error | 	If nonce is included it must be a non-negative integer., The request is missing the key: address | Error: If nonce is included it must be a non-negative integer., The request is missing the key: address
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:449:26)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.cancel (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:285:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:135:43
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at cancel (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:71:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:213:42
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	something went wrong | Error: something went wrong
+    at Ethereum.getCurrentBlockNumber (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/test/chains/ethereum/ethereum.routes.test.ts:459:26)
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:134:44)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.poll (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:76:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:34:39
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at poll (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:15:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:115:40
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	unsupported chain undefined | Error: 
+    at new UnsupportedChainException (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/connection-manager.ts:82:24)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/connection-manager.ts:93:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/connection-manager.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | info | 	Poll goerli, txHash 0x2faeb1aa55f96c1db55f643a8cf19b0f76bf091d0b7d1b068d2e829414576362, status 0. | undefined
+2024-01-30 05:43:02 | info | 	Poll goerli, txHash 0x2faeb1aa55f96c1db55f643a8cf19b0f76bf091d0b7d1b068d2e829414576362, status -1. | undefined
+2024-01-30 05:43:02 | info | 	Poll goerli, txHash 0x6d068067a5e5a0f08c6395b31938893d1cdad81f54a54456221ecd8c1941294d, status 1. | undefined
+2024-01-30 05:43:02 | error | 	daily request count exceeded, request rate limited | Error: daily request count exceeded, request rate limited
+    at Ethereum.getCurrentBlockNumber (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/test/chains/ethereum/ethereum.routes.test.ts:537:26)
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:134:44)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.poll (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:76:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:34:39
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at poll (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:15:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:115:40
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | error | 	something went wrong | Error: something went wrong
+    at Ethereum.getCurrentBlockNumber (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/test/chains/ethereum/ethereum.routes.test.ts:562:26)
+    at Function.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:134:44)
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:4:12)
+    at Function.poll (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/ethereum/evm.controllers.ts:76:16)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:34:39
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:4:12)
+    at poll (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.controller.ts:15:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:115:40
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/chains/chain.routes.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:02 | info | 	Poll goerli, txHash 0x5a1ed682d0d7a58fbd7828bbf5994cd024feb8895d4da82c741ec4a191b9e849, status -1. | undefined
+2024-01-30 05:43:02 | info | 	Poll goerli, txHash 0x75f98675a8f64dcf14927ccde9a1d59b67fa09b72cc2642ad055dae4074853d9, status 1. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | info | 	Expected execution price is 100, limit price is undefined. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | info | 	Expected execution price is 100, limit price is undefined. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | info | 	Expected execution price is 100, limit price is 9. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:05 | error | 	Swap price exceeded limit price. | undefined
+2024-01-30 05:43:05 | info | 	Expected execution price is 100, limit price is 99999999999. | undefined
+2024-01-30 05:43:05 | error | 	Swap price lower than limit price. | undefined
+2024-01-30 05:43:05 | error | 	Could not get trade info. uniswapish.estimateSellTrade is not a function | undefined
+2024-01-30 05:43:05 | error | 	Could not get trade info. uniswapish.estimateBuyTrade is not a function | undefined
+2024-01-30 05:43:07 | error | 	Price query failed: Token not supported: DOGE | Error: Price query failed: Token not supported: DOGE
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:156:13
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:07 | error | 	Price query failed: Token not supported: SHIBA | Error: Price query failed: Token not supported: SHIBA
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:156:13
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | info | 	Expected execution price is 100, limit price is undefined. | undefined
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | info | 	Expected execution price is 100, limit price is undefined. | undefined
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | error | 	The amount param must be a string of a non-negative integer., The side param must be a string of "BUY" or "SELL". | Error: The amount param must be a string of a non-negative integer., The side param must be a string of "BUY" or "SELL".
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/amm/amm.routes.ts:89:29
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/amm/amm.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/amm/amm.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/amm/amm.routes.ts:88:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:07 | error | 	Could not get trade info. Token not supported: BITCOIN | undefined
+2024-01-30 05:43:07 | error | 	Trade query failed: Token not supported: BITCOIN | Error: Trade query failed: Token not supported: BITCOIN
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:225:13
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:07 | error | 	Could not get trade info. Token not supported: BITCOIN | undefined
+2024-01-30 05:43:07 | error | 	Trade query failed: Token not supported: BITCOIN | Error: Trade query failed: Token not supported: BITCOIN
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:225:13
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:07 | info | 	Expected execution price is 100, limit price is 9. | undefined
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | info | 	Trade has been executed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:07 | info | 	Expected execution price is 100, limit price is 99999999999. | undefined
+2024-01-30 05:43:07 | error | 	Swap price lower than limit price. | undefined
+2024-01-30 05:43:07 | error | 	Swap price 100 lower than limitPrice 99999999999 | Error: Swap price 100 lower than limitPrice 99999999999
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:318:13
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:07 | error | 	Swap price exceeded limit price. | undefined
+2024-01-30 05:43:07 | error | 	Swap price 100 exceeds limitPrice 9 | Error: Swap price 100 exceeds limitPrice 9
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:252:13
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/connectors/uniswap/uniswap.controllers.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:08 | error | 	EVMNonceManager.mergeNonceFromEVMNode called before initiated | undefined
+2024-01-30 05:43:08 | error | 	EVMNonceManager.getNonceFromMemory called before initiated | undefined
+2024-01-30 05:43:08 | error | 	EVMNonceManager.commitNonce called before initiated | undefined
+2024-01-30 05:43:08 | error | 	Provided txNonce is < currentNonce | undefined
+2024-01-30 05:58:09 | info | 	Providing the next nonce 10 for address 0xFaA12FD102FE8623C9299c72B03E45107F2772B5. | undefined
+2024-01-30 06:03:09 | info | 	Providing the next nonce 10 for address 0xFaA12FD102FE8623C9299c72B03E45107F2772B5. | undefined
+2024-01-30 06:03:09 | error | 	Transaction with nonce 10 for address 0xFaA12FD102FE8623C9299c72B03E45107F2772B5 failed : Error: testFunction has failed. | undefined
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector | Error: The request is missing the key: connector
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:94:29
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:93:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at query (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/application.js:181:10)
+    at Server.app (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector, The request is missing the key: market | Error: The request is missing the key: connector, The request is missing the key: market
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:109:30
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:108:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at query (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/application.js:181:10)
+    at Server.app (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector | Error: The request is missing the key: connector
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:126:29
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:125:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at query (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/application.js:181:10)
+    at Server.app (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector, The request is missing the key: orderId | Error: The request is missing the key: connector, The request is missing the key: orderId
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:141:29
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:140:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at query (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/application.js:181:10)
+    at Server.app (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector, The request is missing the key: amount, The request is missing the key: address, The request is missing the key: side, The request is missing the key: orderType | Error: The request is missing the key: connector, The request is missing the key: amount, The request is missing the key: address, The request is missing the key: side, The request is missing the key: orderType
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:156:33
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:155:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector, The request is missing the key: orderId | Error: The request is missing the key: connector, The request is missing the key: orderId
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:169:29
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:168:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector | Error: The request is missing the key: connector
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:182:35
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:181:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:11 | error | 	The request is missing the key: connector | Error: The request is missing the key: connector
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:195:35
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/clob/clob.routes.ts:194:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at query (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/application.js:181:10)
+    at Server.app (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+2024-01-30 05:43:13 | info | 	Liquidity added, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:13 | info | 	Liquidity removed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:13 | info | 	Fees collected, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:13 | info | 	Position info for position 2732 retrieved. | undefined
+2024-01-30 05:43:15 | info | 	Liquidity added, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:15 | info | 	Liquidity removed, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:15 | info | 	Fees collected, txHash is 000000000000000, nonce is 21, gasPrice is 100. | undefined
+2024-01-30 05:43:15 | info | 	Position info for position 2732 retrieved. | undefined
+2024-01-30 05:43:19 | error | 	could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.7.2) | Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.7.2)
+    at Logger.Object.<anonymous>.Logger.makeError (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/@ethersproject/logger/src.ts/index.ts:269:28)
+    at Logger.Object.<anonymous>.Logger.throwError (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/@ethersproject/logger/src.ts/index.ts:281:20)
+    at StaticJsonRpcProvider.<anonymous> (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/ethers/node_modules/@ethersproject/providers/src.ts/json-rpc-provider.ts:483:23)
+    at step (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/ethers/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:48:23)
+    at Object.throw (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/ethers/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:29:53)
+    at rejected (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/ethers/node_modules/@ethersproject/providers/lib/json-rpc-provider.js:21:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:19 | error | 	Unrecognized chain name hello. | Error: Unrecognized chain name hello.
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/network/network.controllers.ts:43:15
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/network/network.controllers.ts:6:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:19 | error | 	unsupported chain unknown | Error: 
+    at new UnsupportedChainException (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/connection-manager.ts:82:24)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/connection-manager.ts:93:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/connection-manager.ts:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-01-30 05:43:22 | info | 	Fetching trade data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Best trade for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa: 2.000000WETH. | undefined
+2024-01-30 05:43:22 | info | 	Fetching trade data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Fetching trade data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Best trade for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa: 1.000000WETH. | undefined
+2024-01-30 05:43:22 | info | 	Fetching trade data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Fetching pair data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Best trade for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa: 0.500000 DAI. | undefined
+2024-01-30 05:43:22 | info | 	Fetching pair data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Fetching pair data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:22 | info | 	Best trade for 0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa-0xd0A1E359811322d97991E03f863a0C30C2cF029C: 1.000000DAI. | undefined
+2024-01-30 05:43:22 | info | 	Fetching pair data for 0xd0A1E359811322d97991E03f863a0C30C2cF029C-0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa. | undefined
+2024-01-30 05:43:28 | error | 	The request is missing the key: chain, The request is missing the key: chain, The request is missing the key: network | Error: The request is missing the key: chain, The request is missing the key: chain, The request is missing the key: network
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:46:33
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:45:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:28 | error | 	The request is missing the key: chain, The request is missing the key: chain, The request is missing the key: network | Error: The request is missing the key: chain, The request is missing the key: chain, The request is missing the key: network
+    at throwIfErrorsExist (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:48:11)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/validators.ts:137:23
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:46:33
+    at Generator.next (<anonymous>)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:8:71
+    at new Promise (<anonymous>)
+    at Object.<anonymous>.__awaiter (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:4:12)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/wallet/wallet.routes.ts:45:11
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/src/services/error-handler.ts:55:28
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:231:16)
+    at done (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/mcarlos/Documents/BitBucket/market_maker_gateway/node_modules/express/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-30 05:43:31 | info | 	Uniswap V3 Remove position Tx Hash: 0x75f98675a8f64dcf14927ccde9a1d59b67fa09b72cc2642ad055dae4074853d9 | undefined
+2024-01-30 05:43:31 | info | 	Uniswap V3 Add position Tx Hash: 0x75f98675a8f64dcf14927ccde9a1d59b67fa09b72cc2642ad055dae4074853d9 | undefined
+2024-01-30 05:43:34 | info | 	Pancakeswap V3 Remove position Tx Hash: 0x75f98675a8f64dcf14927ccde9a1d59b67fa09b72cc2642ad055dae4074853d9 | undefined
+2024-01-30 05:43:34 | info | 	Pancakeswap V3 Add position Tx Hash: 0x75f98675a8f64dcf14927ccde9a1d59b67fa09b72cc2642ad055dae4074853d9 | undefined
+2024-01-30 05:43:37 | info | 	Loading leading nonce [object Object] for address ABC. | undefined
+2024-01-30 05:43:40 | info | 	Fetching pair data for 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd-0x8a9424745056Eb399FD19a0EC26A14316684e274. | undefined
+2024-01-30 05:43:40 | info | 	Best trade for 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd-0x8a9424745056Eb399FD19a0EC26A14316684e274: 1.993012undefined. | undefined
+2024-01-30 05:43:40 | info | 	Fetching pair data for 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd-0x8a9424745056Eb399FD19a0EC26A14316684e274. | undefined
+2024-01-30 05:43:40 | info | 	Fetching pair data for 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd-0x8a9424745056Eb399FD19a0EC26A14316684e274. | undefined
+2024-01-30 05:43:40 | info | 	Best trade for 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd-0x8a9424745056Eb399FD19a0EC26A14316684e274: 0.501753 undefined. | undefined
+2024-01-30 05:43:40 | info | 	Fetching pair data for 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd-0x8a9424745056Eb399FD19a0EC26A14316684e274. | undefined
+2024-01-30 05:43:47 | error | 	The passphrase has to be provided by argument (--passphrase=XXX) or in an env variable (GATEWAY_PASSPHRASE=XXX) | undefined
