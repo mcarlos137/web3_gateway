@@ -1,8 +1,6 @@
-![Hummingbot](https://i.ibb.co/X5zNkKw/blacklogo-with-text.png)
+# Web3 Gateway
 
-# DAMEX Gateway
-
-DAMEX Gateway is a REST API that exposes connections to various blockchains (wallet, node & chain interaction) and decentralized exchanges (pricing, trading & liquidity provision). It is written in Typescript and takes advantage of existing blockchain and DEX SDKs. The advantage of using gateway is it provideds a programming language agnostic approach to interacting with blockchains and DEXs.
+Web3 Gateway is a REST API that exposes connections to various blockchains (wallet, node & chain interaction) and decentralized exchanges (pricing, trading & liquidity provision). It is written in Typescript and takes advantage of existing blockchain and DEX SDKs. The advantage of using gateway is it provideds a programming language agnostic approach to interacting with blockchains and DEXs.
 
 ## Installation from source
 
